@@ -6508,6 +6508,13 @@ button.bg-dark:focus {
   .d-print-inline-flex {
     display: inline-flex !important;
   }
+  a:link {
+        border-bottom: none !important;
+        text-decoration: none !important;
+    }
+    a[href]:after {
+        content: none !important;
+    }
 }
 .embed-responsive {
   position: relative;
